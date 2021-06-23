@@ -8,8 +8,8 @@ from Python_ARQ import ARQ
 luna = Client(
     ":memory:",
     bot_token=bot_token,
-    api_id=6,
-    api_hash="eb06d4abfb49dc3eeb1aeb98ae0f581e",
+    api_id=6565213,
+    api_hash="ff44868db4d5fc4c3baffa00ce57e855",
 )
 bot_id = int(bot_token.split(":")[0])
 aiohttp_session = ClientSession()
@@ -32,7 +32,7 @@ async def type_and_send(message):
 @luna.on_message(filters.command("repo") & ~filters.edited)
 async def repo(_, message):
     await message.reply_text(
-        "[GitHub](https://github.com/thehamkercat/LunaChatBot)"
+        "[GitHub](https://github.com/theed221120/CHATBOT.git)"
         + " | [Group](t.me/PatheticProgrammers)",
         disable_web_page_preview=True,
     )
