@@ -1,0 +1,23 @@
+{
+  "name": "Telegram-chat-bot",
+  "description": "Telegram's Best Smart Plugin chat Bot",
+  "logo": "https://telegra.ph/file/8b8419bb855959c143875.jpg",
+  "keywords": [
+    "telegram",
+    "chat",
+    "bot"
+  ],
+  "success_url": "https://t.me/DForDarkAngel",
+  "website": "https://github.com/Jijinr/Frwdit",
+  "repository": "https://github.com/theed221120/CHATBOT.git",
+  "env": {
+    "bot_token": {
+      "description": "Your bot token from @BotFather",
+      "value": ""
+    },
+    "ARQ_API_KEY": {
+      "description": "ARQ ID from ARQ telegram bot",
+      "value": ""
+    }
+  }
+}
